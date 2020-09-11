@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;    
+}
+.header {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+	height: 100vh;
+	/*background-color: #1E4776;
+    background-image: url('./../img/header/headerbg.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover; */
+}
+.header-title {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 1.3;
+    /* identical to box height, or 73px */
+    text-align: center;
+    color: #FFFFFF;
+}
+  p.header-subtitle {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.5;
+
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.header_arrow {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+
+    display: block;
+    width: 48px;
+    height: 48px;
+
+    transform: translate(-50%, 0);
+    transition: all 0.2s ease-in;
+}
+.header_arrow:hover {
+    transform: translate(-50%, -15px);
+}
+/*section portfolio*/
+.portfolio {
+   padding-top: 80px;
+   padding-bottom: 120px;
+}
+.container {
+  max-width: 1140px; 
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-top: 15px;
+ 
+}
+.section_header {
+   margin: 0;
+   margin-bottom: 70px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 46px;
+   line-height: 1.3;
+
+
+}
+.portfolio_cards_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    margin-bottom: 30px;
+    max-width: 540px;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(126, 155, 189, 0.35);
+}
+.card:nth-last-child(2) {
+    margin-bottom: 0;
+}
+.card:last-child{
+    margin-bottom: 0; 
+}
+.card_img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card-title {
+    margin: 0;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.3;
+
+}
+.card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.3;
+}
+/*Footer*/
+   .footer {
+       padding-top: 40px;
+       padding-bottom: 134px;
+       background-color: #1E4776;
+       color: #fff;
+   }
+   .footer-row {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+   }
+   .footer-copyright {
+       max-width: 350px;
+       flex-shrink: 0;
+       color: #7E9EC9;
+   }
+   .footer-copyright p {
+       margin: 0 0 15px 0;
+       font-weight: 600;
+       font-size: 16px;
+       line-height: 1.3;
+       
+}
+    .copyright-name {
+       margin-bottom: 15px;
+       font-weight: bold;
+       font-size: 28px;
+       line-height: 1.3;
+}
+.footer-social{
+       max-width: 350px;
+       flex-shrink: 0;
+}
+    .footer-social p {
+       margin: 10px 0 15px 0;
+       font-weight: 600;
+       font-size: 16px;
+       line-height: 1.3;
+       color: #FFFFFF;
+    }
+    .footer-social-list {
+       display: flex;
+       margin: 0;
+       padding: 0;
+       list-style: none;
+}
+    .footer-social-list li {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 30;
+       text-align: center;
+       
+
+}
+.footer-social-list li + li {
+        margin-left: 30px;
+}
+    .footer-social-list img {
+         vertical-align: middle;
+}
+    .footer-vk-button{
+        display: inline-block;
+        padding: 0px 30px;
+        height: 50px;
+        border: 3px solid #FFFFFF;
+        border-radius: 50px;
+
+        font-weight: bold;
+        font-size: 16px;
+        text-decoration: none;
+        line-height: 44px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+}
+     .footer-contacts {
+        padding-top: 8px;
+        max-width: 350px;
+        flex-shrink: 0;
+        flex-grow: 0;
+}
+    .footer-contacts p{
+       font-size: 16px;
+       line-height: 1.3;
+       color: #7E9EC9;
+}
+
+
